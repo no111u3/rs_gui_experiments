@@ -1,0 +1,10 @@
+[package]
+name = "rs_gui_experiments"
+version = "0.1.0"
+authors = ["Boris Vinogradov <no111u3@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gtk = "0.7.0"
+relm = "0.18.0"
+relm-derive = "0.18.0"
