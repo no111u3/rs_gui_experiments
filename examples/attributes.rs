@@ -25,16 +25,8 @@ impl Widget for Win {
         match event {
             // A call to self.label1.set_text() is automatically inserted by the
             // attribute every time the model.counter attribute is updated.
-            Msg::Decrement => {
-                if self.model.counter > 0 {
-                    self.model.counter -= 1
-                }
-            }
-            Msg::Increment => {
-                if self.model.counter < std::u32::MAX {
-                    self.model.counter += 1
-                }
-            }
+            Msg::Decrement => self.model.counter = self.model.counter.overflowing_sub(1).0,
+            Msg::Increment => self.model.counter = self.model.counter.overflowing_add(1).0,
             Msg::Quit => gtk::main_quit(),
         }
     }
