@@ -6,5 +6,6 @@ edition = "2018"
 
 [dependencies]
 gtk = "0.7.0"
+gtk-test = "0.4"
 relm = "0.18.0"
 relm-derive = "0.18.0"
