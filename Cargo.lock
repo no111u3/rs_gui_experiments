@@ -449,6 +449,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "relm-test"
+version = "0.18.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+dependencies = [
+ "gtk-test 0.4.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "relm 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
 name = "rs_gui_experiments"
 version = "0.1.0"
 dependencies = [
@@ -460,6 +469,7 @@ dependencies = [
  "rand 0.5.6 (registry+https://github.com/rust-lang/crates.io-index)",
  "relm 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "relm-derive 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)",
+ "relm-test 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
@@ -571,6 +581,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 "checksum redox_syscall 0.1.56 (registry+https://github.com/rust-lang/crates.io-index)" = "2439c63f3f6139d1b57529d16bc3b8bb855230c8efcc5d3a896c8bea7c3b1e84"
 "checksum relm 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)" = "d4127341a75eb96dc99ba39b87a2783bb011b20fbdbafc25ed2f58216d2ff714"
 "checksum relm-derive 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)" = "ec66397054dc1ea6c658159866b9978add6a90655aba5dd4a90c34d2e63f9d69"
+"checksum relm-test 0.18.0 (registry+https://github.com/rust-lang/crates.io-index)" = "7bfbca5f4ae344c408b8986d0caf47fafd016c640aa9de9c24c96b672f324fc2"
 "checksum syn 0.15.44 (registry+https://github.com/rust-lang/crates.io-index)" = "9ca4b3b69a77cbe1ffc9e198781b7acb0c7365a883670e8f1c1bc66fba79a5c5"
 "checksum time 0.1.42 (registry+https://github.com/rust-lang/crates.io-index)" = "db8dcfca086c1143c9270ac42a2bbd8a7ee477b78ac8e45b19abfb0cbede4b6f"
 "checksum unicode-xid 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "fc72304796d0818e357ead4e000d19c9c174ab23dc11093ac919054d20a6a7fc"
